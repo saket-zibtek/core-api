@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Skycop.DAL\Skycop.DAL.csproj" />
+    <ProjectReference Include="..\Skycop.Model\Skycop.Model.csproj" />
+  </ItemGroup>
+
+</Project>
